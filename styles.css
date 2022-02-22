@@ -1,7 +1,13 @@
 body{
-    background-color: #464660;
-    background-size: cover;font-family: 'Sarabun', sans-serif;
+    
+    background: rgb(51,47,52);
+    background: linear-gradient(353deg, rgba(51,47,52,1) 12%, rgba(37,91,186,1) 50%, rgba(158,158,158,1) 81%);
+   font-family: 'Sarabun', sans-serif;
     color:#ffffff;
+
+}
+a{
+    text-decoration: none;
 }
 .navbar{
     background-color:#789395;
@@ -103,5 +109,26 @@ font-weight: bold;
 }
 #contact{
     padding-bottom:3rem;
-    
+}
+.section{
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr;  
+    padding:1rem;
+}
+.boss{
+    grid-template-columns: 3fr 3fr;
+    display: grid;
+}
+
+.sectionimg{
+    background-image: url(images/drum-roll.png);
+   background-size: contain;
+    background-repeat:no-repeat;
+    grid-row: 1/2;
+}
+.sectionbelow{
+  grid-row: 2/4;
+    font-size: 1.2rem;
+padding-top:1.2rem;
+
 }
