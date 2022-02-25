@@ -10,7 +10,8 @@ a{
     text-decoration: none;
 }
 .navbar{
-    background-color:#789395;
+    background: rgb(154,164,194);
+background: linear-gradient(270deg, rgb(22, 32, 49) 30%, rgb(74, 105, 131) 70%);
     border-bottom-right-radius:15%;
     border-bottom-left-radius:15%;font-family: 'Averia Libre', cursive;
     padding-left:5rem;
