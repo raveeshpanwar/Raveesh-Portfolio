@@ -16,6 +16,7 @@ a{
     padding-left:5rem;
     padding-right: 5rem;
     justify-content:flex-end;
+    box-shadow:0 5px 3px white;
 }.navlink{
     cursor: pointer;
     font-size: 1.3rem;
@@ -132,8 +133,8 @@ font-weight: bold;
     background-repeat:no-repeat;
     grid-column:1/2;
     grid-row: 1/4;
-    border: 3px white solid;
-    box-shadow: 0 3px 3px 0px white;
+    border: 3px rgb(255, 255, 255) solid;
+    box-shadow: 0 3px 3px 0px rgb(255, 255, 255);
 }
 .sectionbutton{
     grid-template-rows: 1fr 1fr;
