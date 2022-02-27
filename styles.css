@@ -170,3 +170,6 @@ font-weight: bold;
 .text1,.text3{
     font-family: 'Courgette', cursive;
 }
+.simongameimg{
+    background-image:url(images/simongame.jpg);
+}
